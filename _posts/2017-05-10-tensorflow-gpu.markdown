@@ -16,7 +16,7 @@ In this post you'll learn how to use nvidia-docker with Tensorflow.
 Use the correct image based on your CUDA version:
 
 - CUDA 8.0 use `tensorflow/tensorflow:latest-gpu`
-- CUDA 7.55 use `tensorflow/tensorflow:1.0.0-rc0-gpu`
+- CUDA 7.5 use `tensorflow/tensorflow:1.0.0-rc0-gpu`
 
 Test nvidia-smi
 ```
