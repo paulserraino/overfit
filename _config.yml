@@ -11,7 +11,7 @@ email: your-email@domain.com
 description: > # Computer vision and machine learning blog created by Paul Serraino (software engineer at eyeQ)
 baseurl: "" # the subpath of your site, e.g. /blog
 lang: "en"
-url: "http://localhost:4000" # the base hostname & protocol for your site
+url: "http://overfitt.io" # the base hostname & protocol for your site
 twitter_username: jekyllrb
 github_username:  jekyll
 disqus_username:
