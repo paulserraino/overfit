@@ -45,11 +45,14 @@ def load_image(img_path, target_size=(244, 244)):
   im = load_image(img_path, target_size=target_size)
   return img_to_array(im) #converts image to numpy array
 
-def IMDB_WIKI(X_sample, y_sample, batch_size=100):
+def IMDB_WIKI(X_samples, y_samples, batch_size=100):
+  batch_size = len(X_samples) / batch_size
   X_batches = np.split(X_samples, batch_size)
   y_batches = np.split(y_samples, batch_size)
   for b in range(X_batches):
-    yield (map(X_batches[b], load_image), y_batches[b])
+    x = np.array(map(load_image, X_batches[b]))
+    y = np.array(y_batches[b])
+    yield x, y
 
 {% endhighlight %}
 
