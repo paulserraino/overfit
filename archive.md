@@ -1,5 +1,5 @@
 ---
-bg: "tag.jpg"
+bg: "eyeshut.jpg"
 layout: page
 permalink: /posts/
 title: "Archive"
