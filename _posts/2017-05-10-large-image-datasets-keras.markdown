@@ -5,7 +5,7 @@ crawlertitle: "How to train large image datasets with keras"
 summary: "Training large scale image datasets with keras"
 date:   2017-05-10 23:10:47 +0700
 categories: posts
-tags: 'keras'
+tags: 'machine-learning'
 author: paul
 ---
 

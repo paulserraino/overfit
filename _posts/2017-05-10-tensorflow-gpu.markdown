@@ -5,7 +5,7 @@ crawlertitle: "How to use tensorflow and nvidia-docker"
 summary: "How to use Tensorflow and Docker"
 date:   2017-05-10 23:09:47 +0700
 categories: posts
-tags: 'tensorflow'
+tags: 'machine-learning'
 author: paul
 ---
 
